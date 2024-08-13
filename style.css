@@ -1,0 +1,424 @@
+body{
+  background-color:rgba(0, 0, 0, 0.452);
+  font-family: 'Times New Roman', Times, serif;
+}
+div{
+  display: inline-flex;
+}
+
+.box01{
+  background-color: blue;
+}
+
+.heading01{
+  color: rgb(255, 000, 000);
+}
+
+.heading02{
+ color: rgb(255, 000, 000);
+}
+
+.heading03{ 
+  color: rgb(255, 000, 000);
+}
+
+.button01{
+  background-color: rgb(000, 255, 000);
+}
+
+#p01{
+  text-align: center;
+ color: aqua;
+ text-decoration: dotted;
+}
+#heading04{
+  text-align: center;
+ }
+
+ #outer{
+  font-size: 25px;
+  color: rgb(106, 255, 56);
+ }
+ #inner{
+  font-size: 10px;
+  color:rgb(255, 000, 000);
+ }
+
+ #nav01{
+  background-color: rgb(36, 36, 36);
+  font-family: 'Times New Roman', Times, serif;
+  height: 60px;
+ }
+
+
+ #link01{
+  margin-left:5px;
+text-decoration: none;
+color: orange;
+font-size: 25px;
+text-transform: lowercase;
+ }
+
+ #link02{
+  margin-left:200px;
+  color:white;
+  text-decoration:none;
+ }
+ #link03{
+  margin-left:200px;
+  color:white;
+  text-decoration:none;
+ }
+ #link04{
+  margin-left:200px;
+  color:white;
+  text-decoration:none;
+ }
+
+ #search01{
+ margin-left: 200px;
+ }
+
+ #search02{
+  background-color: rgb(255, 208, 0);
+ }
+
+
+ #box02{
+  margin-left: 200px;
+  box-shadow: 0px 0px 30px rgb(255, 255, 255);
+  border: rgb(240, 240, 247) solid 3px;
+  background-color: rgb(153, 142, 142);
+  width: 130px;
+  height: 410px;
+  display: block;
+ }
+
+#red{
+  box-shadow: 0px 0px 30px rgb(255, 0, 0);
+background-color: red;
+
+border-radius: 50%;
+height: 120px;
+width: 120px;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 5px;
+}
+#yellow{
+  box-shadow: 0px 0px 30px yellow;
+  background-color: yellow;
+
+border-radius: 50%;
+height: 120px;
+width: 120px;
+margin-bottom: 10px;
+margin-left: 5px;
+}
+#green{
+  box-shadow: 0px 0px 30px green;
+  background-color: green;
+
+border-radius: 50%;
+height: 120px;
+width: 120px;
+margin-bottom: 10px;
+margin-left: 5px;
+}
+
+
+#stand{
+  box-shadow: 0px 0px 10px rgb(41, 40, 40);
+  border: rgb(173, 173, 173) solid 3px;
+  background-color:rgb(41, 40, 40);
+  height:150px;
+  width:45px;
+  margin-left:245px;
+  display: block;
+}
+#light{
+  size: 1000px;
+}
+
+
+
+#div03{
+  background-color: rgba(10, 100, 10, 0.5);
+  height: 140px;
+  width: 140px;
+  border: 5px solid rgb(255, 136, 0);
+  
+
+}
+#div04{
+  background-color: rgba(100, 10, 10, 0.5);
+  height: 140px;
+  width: 140px;
+  border: 5px double rgb(26, 190, 26);
+}
+#div05{
+  background-color: rgba(10, 10, 100, 0.5);
+  height: 140px;
+  width: 140px;
+  border: 5px dotted rgb(205, 227, 44);
+}
+
+ #div06{
+
+  height:190px;
+  width: 180px;
+  border: 4px solid red;
+ background-image: url(sky_image.jpg);
+ display: block;
+ background-size: cover;
+ position: fixed;
+
+right: 0px;
+ }
+
+ #google{
+  text-decoration: none;
+  color: rgb(0, 255, 60);
+ }
+
+
+ #loader{
+  height: 40px;
+  width: 40px;
+  border-radius:50%;
+  background-color: transparent;
+  border: 4px solid #63372C;
+  border-bottom: 4px solid #F2E5D7;
+ animation-name: loader;
+  animation-duration: 0.5s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 200px;
+  margin-top: 200px;
+ }
+ 
+@keyframes loader{
+  from{rotate:0deg; }
+  to{rotate:360deg; }
+}
+
+
+
+
+/* __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________*/
+*{
+  margin: 0px;
+}
+body{
+
+}
+#uchihabody{
+  background-image: url(https://th.bing.com/th/id/OIP.NVBY0LHo_KGdcVmQtkP1hgHaEK?rs=1&pid=ImgDetMain);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200%;
+}
+#uzumakibody{
+  background-image: url(https://th.bing.com/th/id/OIP.-1CUOMWgRJGO-wyyiV4XOwHaEK?w=1920&h=1080&rs=1&pid=ImgDetMain);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200%;
+}#senjubody{
+  background-image: url(https://th.bing.com/th/id/OIP.nsY02zF-13huqh_QByxZVwHaEK?w=1024&h=576&rs=1&pid=ImgDetMain);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200%;
+}
+
+#Uchiha-Banner, #Uzumaki-Banner, #Senju-Banner{
+  background-color: rgba(255, 0, 0, 0);
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+#ub1{
+  transition: ease-in .2s;
+  margin-top: 10px;
+scale: 1.01;
+}
+#ub2{
+  transition: ease-in .2s;
+  margin-top: 10px;
+scale: 1.5;
+}
+#ub2:hover{
+  scale: 1.7;
+}
+#sb{
+  transition: ease-in .2s;
+  margin-top: 10px;
+scale: 1.9;
+}
+#sb:hover{
+  scale: 2.5;
+}
+#ub1:hover{
+  scale: 1.2;
+}
+#boxp{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+#box01{
+  background-color: rgb(255, 255, 255);
+  height: 450px;
+  width: 300px;
+  border: 1.5px solid rgb(197, 197, 197);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  transition: .2s ease-in;
+}
+#box01:hover{
+  scale:1.08;
+}
+#img001, #img002, #img003, #img006, #img004, #img005, #img007, #img008, #img009{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border-radius:10px ;
+  border-top-right-radius: 10px;
+  background-image: url(https://i.pinimg.com/originals/48/42/f0/4842f0fb3a97f6336fab388d78cda8d1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: end;
+}
+#imgblr{
+  width: 100%;
+  height: 40%;
+background: rgba(183, 100, 100, 0);
+border-radius: 10px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px);
+border: 1px solid rgba(255, 255, 255, 0.44);
+}
+#name001, #name002, #name003, #name04, #name05, #name06, #name07, #name08, #name09{
+  width: 100%;
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+  display: block;
+  overflow: hidden;
+}
+#name001 p, #name002 p, #name003 p, #name04 p, #name05 p, #name06 p, #name07 p, #name08 p, #name09 p{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 145%;
+  font-family: Tahoma, sans-serif;
+  transition:  .2s ease-in;
+}
+#txt002{
+  display: block;
+  text-align: left;
+  font-size: 105%;
+  font-family: Arial, sans-serif;
+  padding: 5px;
+}
+#txt02{
+  display: block;
+  text-align: left;
+  font-size: 105%;
+  font-family: Arial, sans-serif;
+  padding: 5px;
+  color: rgb(87, 87, 87);
+}
+#txt02:hover{
+  color: black;
+}
+#txt001:hover, #txt002:hover, #txt003:hover{
+  color: rgb(212, 212, 212);
+}
+#name001 p:hover{
+  color: red;
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.2);
+}
+#name002 p:hover{
+  color: rgb(255, 128, 0);
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.2);
+}
+#name003 p:hover{
+  color: rgb(255, 170, 170);
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.2);
+}
+#img002{
+  background-image: url(https://pre00.deviantart.net/e2df/th/pre/i/2010/294/f/a/tobi_by_vimes_da-d316xja.jpg);
+}
+#img004{
+  background-image: url(https://th.bing.com/th/id/OIP.UGspK4wsMk7AUDx5vL_VGwHaLH?w=640&h=960&rs=1&pid=ImgDetMain);
+}
+#img003{
+  background-image: url(https://orig00.deviantart.net/d589/f/2017/255/e/d/naruto_chapetr_663___madara_rikudou_by_zyuucl-dbn8js2.png);
+}
+#img005{
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8a3dc42b-0da8-4c23-aa4a-b9e54bca754d/dg6b74h-62d9b112-81b8-4b0c-9271-c5cb7aa2c0fe.png/v1/fill/w_777,h_1029,q_70,strp/boruto_two_blue_vortex_by_twcfree_dg6b74h-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTY5NiIsInBhdGgiOiJcL2ZcLzhhM2RjNDJiLTBkYTgtNGMyMy1hYTRhLWI5ZTU0YmNhNzU0ZFwvZGc2Yjc0aC02MmQ5YjExMi04MWI4LTRiMGMtOTI3MS1jNWNiN2FhMmMwZmUucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.KIfQbaWXplSExBnXaqFqEY_VM0vCi5-BGxrs3345UPs);
+}
+#img006{
+  background-image: url(https://i.pinimg.com/originals/cb/68/91/cb689174209e5991907d72f92f6ca625.png);
+}
+#img007{
+  background-image: url(https://e0.pxfuel.com/wallpapers/584/766/desktop-wallpaper-naruto-hashirama-sasuke-senju.jpg);
+}
+#img008{
+  background-image: url(https://th.bing.com/th/id/OIP.awZNqaJqheZWfQEks4uYuwHaKe?rs=1&pid=ImgDetMain);
+}
+#img009{
+  background-image: url(https://wallpaperbat.com/img/766850-tsunade.jpg);
+}
+#Uzumaki-Banner{
+  margin-top: 0px;
+}
+#name04 p:hover{
+  color: rgb(255, 251, 0);
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.2);
+}
+#name05 p:hover{
+  color: rgb(109, 109, 109);
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.2);
+}
+#name06 p:hover{
+  color: rgb(255, 68, 68);
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.2);
+}
+#name07 p:hover{
+  color: rgb(0, 255, 17);
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.2);
+}
+#name08 p:hover{
+  color: rgb(0, 204, 255);
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.2);
+}
+#name09 p:hover{
+  color: rgb(20, 255, 133);
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.2);
+}
